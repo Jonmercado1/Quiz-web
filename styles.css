@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#s-span, #f-span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+#text-email, #text-insta {
+    margin-left: 12px;
+}
+
+#score {
+    display: none;
+}
